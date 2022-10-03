@@ -1,0 +1,24 @@
+#square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+#square:hover {
+    background-color: rgb(225, 255, 0);
+}
+#button {
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#row {
+     display: flex;
+}
+.active,
+.list:hover {
+    background-color: blue;
+    color: rgb(204, 202, 196);
+    transform: scale(0.98);
+ 
+}
